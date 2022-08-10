@@ -165,7 +165,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 1em 0 1em;
+         padding: 0 1em 0 1em;
         width: 100%;
         
     } 
@@ -231,8 +231,11 @@ body{
     }
 
     .cont-container img{
-        width: 15%;
-        padding: 0 10px 0 10px;
+        /* width: 15%; */
+        /* padding: 2vw 10px 0 10px; */
+        
+    
+        
         
     }
 
@@ -261,12 +264,12 @@ body{
             width: 30%;
             margin: 3%;
             border-radius: 0 0 10px 0;
-            box-shadow:5px 8px rgb(151, 68, 68, 0.60);
+            box-shadow:1px 1px rgba(77, 31, 31, 0.6);
             transition: 0.3s ease-in-out;
         }
     .bttnn:hover{
             cursor: pointer;
-            box-shadow: 0px 5px rgba(161, 153, 153, 0.60) ;
+            box-shadow: 0px 3px rgba(122, 120, 120, 0.6) ;
             
         }
 
@@ -278,12 +281,12 @@ body{
             color: white;
             width: 40%;
             border-radius: 0 0 10px 0;
-            box-shadow:0px 2px rgba(161, 153, 153, 0.60);
+            box-shadow:1px 1px rgba(88, 86, 86, 0.60);
             transition: 0.3s ease-in-out;
         }
     .button:hover{
             cursor: pointer;
-            box-shadow: 0px 2px rgba(161, 153, 153, 0.60) ;
+            box-shadow: 0px 3px rgba(161, 153, 153, 0.60) ;
         }
     
     
@@ -295,6 +298,11 @@ body{
 
          .cont-container .lineimg{
                 width: 10%;
+                position: absolute;
+                 top: 60%;
+                 width: 15vw;
+                 right: -6.7vw;
+                 z-index: -5;
             }
 
 
