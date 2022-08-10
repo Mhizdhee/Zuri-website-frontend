@@ -1,17 +1,21 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
     font-family: Averta, sans-serif;
+    /* overflow: hidden; */
 }
 
-body{
-    background-image: url(/images/hero-bg.svg);
+.mainbody{
+    background-image: url(https://zuri.team/img/hero-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-
+    background-position:center; 
+    max-width: 100%;
+    
+    
 }
 
 
@@ -26,13 +30,16 @@ header .logo{
     
 }
 
-main .container{
+.sectioncont .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 8%;
     width: 100%;
+    
+
+    
     
 }
 
@@ -108,6 +115,189 @@ span{
 
 }
 
+.section .containersect{
+    background-color: #ffffff;
+    
+}
+.section .zuriteam{
+    width: 59%;
+    margin: 25%;
+    padding-top: 10%;
+    text-align: center; 
+    line-height: 2;
+    background-color: white;
+    font-size: 18px;
+}
+
+.zuriteam p {
+    /* text-align: center; */
+    /* width: 95%;
+    /* padding:2%; */
+    /* font-size: 20px; */
+}
+ .divcont{
+    background-color:#FFFAFA;
+    width: 80%;
+    padding: 20% 10% 25% 15%;
+    line-height: 1.5;
+    color:hsla(0, 5%, 30%,0.60) ;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 3em;
+    /* margin: 5% 15% 5% 10%; */
+}
+
+.divcont img{
+    margin-bottom: 10%;
+}
+ .divcont #a{
+    
+    color: #e7332b;
+
+    text-decoration: none;
+}
+#a:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+.divcont2{
+    background-color:#FFFAFA;
+    width: 80%;
+    padding: 10%;
+    line-height: 1.5;
+    color:hsla(0, 5%, 30%,0.60) ;
+    font-weight: 500;
+    font-size: 18px;
+    margin:3em;
+    /* margin:0 15% 15% 10%; */
+    /* margin:0 10% 0 10%; */
+}
+
+.divcont2 img{
+    margin-bottom: 10%;
+}
+ .divcont2 #atag{
+    
+    color: #e7332b;
+    text-decoration: none;
+}
+#atag:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.divcont3{
+    background-color:#FFFAFA;
+    width: 80%;
+    padding: 10%;
+    /* padding: 20% 10% 25% 15%; */
+
+    line-height: 1.5;
+    color:hsla(0, 5%, 30%,0.60) ;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 3em;
+    /* margin:0 15% 15% 10%; */
+    /* margin:0 10% 0 10%; */
+}
+
+.divcont3 img{
+    margin-bottom: 10%;
+}
+ .divcont3 .para3a{
+    
+    color: #e7332b;
+
+    text-decoration: none;
+}
+.para3a:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.footlogo{
+    /* padding: 10%; */
+    /* margin: 5% 5% 0 5%; */
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+}
+
+
+.links h3{
+padding: 5%;
+margin: 0 5% 0 5%;
+font-size: 20px;
+line-height: 2;
+
+}
+
+.links a{
+    color: #e7332B;
+    text-decoration: none;
+    padding: 20%;
+    line-height: 2;
+}
+
+.contact{
+    padding: 10%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #e7332B;
+
+}
+
+.Follow h3{
+
+    padding:10px;
+   /* padding: 0 35% 0 36%; */
+   
+   
+}
+
+
+.icon a{
+text-decoration: none;
+}
+
+.icon a img{
+    width: 18px;
+    
+    /* margin:0  auto; */
+    /* padding: 2% 0; */
+    margin-right: 5px;
+    /* margin-left: 15%; */
+    
+}
+
+
+.copyright {
+    padding: 3rem;
+    text-align: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.247);
+    margin: 0 5%;
+    margin-top: 3rem;
+    color: #514949;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
 
 }
 @media only screen and (min-width: 601px){  
@@ -116,7 +306,8 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 3%;
+        padding-top: 3%;
+        /* margin-bottom: 5%; */
         
     }
     
@@ -126,24 +317,27 @@ span{
         align-items: center;
         flex-direction: column;
         width: 100%;
-        padding: 3%;
+        /* height: 50vh; */
+        padding: 5%;
         
     }
     
     .container h2{
-        /* padding: 5%; */
-        /* color: #eb5850; */
+        /* padding: 0 0 8% 0 ; */
+        
+        /* padding:0 5% 0 5%; */
         width: 100%;
         color: hsl(0, 5%, 30%);
         font-size: 30px;
-        line-height: 2;
+        line-height:1.5;
         text-align: center;
         
     }
     
     .container p{
+        /* padding-bottom: 15%; */
         padding: 3%;
-        color:hsla(0, 5%, 30%,0.95) ;
+        color:hsla(0, 5%, 30%,0.60) ;
         width: 54%;
         text-align: center;
         font-size: 14px;
@@ -165,9 +359,10 @@ span{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        /* padding: 0 5% 0 5%; */
+        padding-bottom: 20%;
         
         
+
     }
     
     
@@ -208,4 +403,201 @@ span{
     
     }
     
+
+    .section .containersect{
+        background-color: #ffffff;
+
+
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; */
+    }
+    .section .zuriteam{
+        width: 50%;
+        margin:0 25%;
+        padding-top: 10%;
+        text-align: center; 
+        line-height: 2;
+        background-color: white;
+        font-size: 18px;
+    }
+    
+    .zuriteam p {
+        text-align: center; 
+        width: 49%;
+        /* padding:5%; */
+        margin: auto;
+        font-size: 20px;
+    }
+
+    #divcontents{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+
+
+    }
+     .divcont{
+
+        background-color: #FFFAFA;
+        padding: 5% 2% 5% 2%;
+        margin: 3%;
+        line-height: 1.5;
+        color:hsla(0, 5%, 30%,0.60) ;
+        font-weight: 500;
+        font-size: 18px;
+        
+    }
+    
+    .divcont img{
+        margin-bottom: 10%;
+    }
+     .divcont #a{
+        
+        color: #e7332b;
+    
+        text-decoration: none;
+    }
+    #a:hover{
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    
+    
+    .divcont2{
+        
+        background-color:#FFFAFA;
+        padding: 5% 2% 5% 2%;
+        margin: 3%;
+        line-height: 1.5;
+        color:hsla(0, 5%, 30%,0.60) ;
+        font-weight: 500;
+        font-size: 18px;
+        
+        
+
+    }
+    
+    .divcont2 img{
+        margin-bottom: 10%;
+    }
+    .divcont2 p{
+        
+    }
+     .divcont2 #atag{
+        
+        color: #e7332b;
+        text-decoration: none;
+    }
+    #atag:hover{
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .divcont3{
+
+
+        background-color:#FFFAFA;
+        padding: 5% 2% 5% 2%;
+        margin: 3%;
+        line-height: 1.5;
+        color:hsla(0, 5%, 30%,0.60) ;
+        font-weight: 500;
+        font-size: 18px;
+        
+      
+    }
+    
+    .divcont3 img{
+        margin-bottom: 10%;
+    }
+     .divcont3 .para3a{
+        
+        color: #e7332b;
+    
+        text-decoration: none;
+    }
+    .para3a:hover{
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .footer{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10% 0 10% 0;
+        
+    }  
+    
+    .footlogo{
+        
+        margin: 0 5% 5% 5%;
+        /* margin-bottom:5%; */
+        
+
+    }
+    .links h3{
+        padding: 5%;
+        margin: 0 5% 0 5%;
+        line-height: 2;
+        font-size: 18px;
+        
+        }
+        
+        .links a{
+            color: #e7332B;
+            text-decoration: none;
+            padding: 20%;
+            line-height: 2;
+        }
+        
+        .contact{
+            padding: 10%;
+            /* text-align: center; */
+            line-height: 1.5;
+        }
+        
+        .contact a{
+            text-decoration: none;
+            color: #e7332B;
+        
+        }
+        
+        .Follow h3{
+           /* padding: 0 20% 0 15%; */
+           padding-bottom: 10%;
+           /* line-height: 2; */
+        }
+        
+        
+        .icon a{
+        text-decoration: none;
+        }
+        
+        .icon a img{
+            width: 8%;
+            margin-bottom: 5%;
+            
+        }
+        
+    
+        .copyright {
+            
+            padding:3rem;
+            text-align: center;
+            border-top: 2px solid rgba(0, 0, 0, 0.247);
+            margin: 0 5%;
+            margin-top: 3rem;
+            color: #514949;
+            font-weight: 700; 
+            font-size: 18px; 
+          } 
+           
+        
+
+
 }
