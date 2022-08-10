@@ -64,13 +64,14 @@ body{
         }
 
         .cont-container .content{
+     
+
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: row;
         }
     
-
         .cont-container h1{
             width: 80%;
             text-align: center;
@@ -81,7 +82,7 @@ body{
         }
 
         .cont-container img{
-            width: 20%;
+            width: 15%;
             
         }
 
@@ -94,6 +95,7 @@ body{
                 line-height: 1.5;
                 padding:0.5em ;
                 margin: 0 15% 0 15% ;
+
 
             }
            .cont-container .classbtn{
@@ -111,7 +113,7 @@ body{
                 width: 30%;
                 margin: 3%;
                 border-radius: 0 0 10px 0;
-                box-shadow:5px 8px rgb(151, 68, 68, 0.9);
+                box-shadow:5px 8px rgb(151, 68, 68, 0.60);
                 transition:0.3s ease-in-out;
             }
 
@@ -138,14 +140,18 @@ body{
             }
     
 
-                .cont-container .img{
+            
+    
+    .cont-container .img{
+
                     width: 100%;
                     padding: 30px;
                 }
-
-               .cont-container .lineimg{
+       .cont-container .lineimg{
                     display: none;
                 }
+
+            
 
     }
     
@@ -154,10 +160,6 @@ body{
     .navbar{
         padding: 0 5% 0 5%;
     }
-
-
-
-
 
     .navbar .container{
         display: flex;
@@ -178,6 +180,7 @@ body{
         padding: 2em;
         font-size: 18px;
     }
+
 
     .container ul{
         display: flex;
@@ -209,7 +212,6 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        /* flex-wrap: nowrap; */
     }
     .cont-container .content{
         display: flex;
@@ -219,7 +221,7 @@ body{
     }
 
     .cont-container h1{
-        
+
         width: 100%;
         text-align: center;
         padding: 25px;
@@ -231,13 +233,12 @@ body{
     .cont-container img{
         width: 15%;
         padding: 0 10px 0 10px;
-        /* margin: 0% 10% 0 0; */
-        display: flex;
+        
     }
 
         .cont-container p{
             width: 70%;
-            color: hsla(0, 2%, 10%,0.9);
+            color: hsla(0, 2%, 10%,0.60);
             font-size: 20px;
             font-weight: 500;
             line-height: 1.5;
@@ -260,13 +261,12 @@ body{
             width: 30%;
             margin: 3%;
             border-radius: 0 0 10px 0;
-            
+            box-shadow:5px 8px rgb(151, 68, 68, 0.60);
             transition: 0.3s ease-in-out;
         }
-
-        .bttnn:hover{
+    .bttnn:hover{
             cursor: pointer;
-            box-shadow: 0px 5px rgba(161, 153, 153, 1) ;
+            box-shadow: 0px 5px rgba(161, 153, 153, 0.60) ;
             
         }
 
@@ -278,21 +278,22 @@ body{
             color: white;
             width: 40%;
             border-radius: 0 0 10px 0;
-            /* box-shadow:0px 2px rgba(161, 153, 153, 0.9); */
+            box-shadow:0px 2px rgba(161, 153, 153, 0.60);
             transition: 0.3s ease-in-out;
         }
-
-        .button:hover{
+    .button:hover{
             cursor: pointer;
-            box-shadow: 0px 2px rgba(161, 153, 153, 0.9) ;
+            box-shadow: 0px 2px rgba(161, 153, 153, 0.60) ;
         }
-
+    
+    
+    
             .cont-container .img{
                 width: 45%;
                 padding: 5em;
             }
 
-            .cont-container .lineimg{
+         .cont-container .lineimg{
                 width: 10%;
             }
 
